@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Smooch+Sans:wght@400;500&family=Work+Sans:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    background-image: linear-gradient(to right, #990055, #990099, #440066 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    margin-top: 100px;
+    background-color:  #E2E3E4;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 34px 40px 0 #440066, 0 5px 130px 0 #990099;
+}
+
+.container h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px ;
+}
+
+/*classe do input*/
+.input-tarefa {
+    background-color: #d8d8d8;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+/*classe do botão de adicionar*/
+.btn-tarefa {
+    background-color: #A2A2A2;
+    color: #0F0F0F;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    width: 150px;
+    height: 37px;
+    border-radius: 6px;
+    margin: 10px;
+    border: none;
+    box-shadow: 0 4px 10px 0 rgba(200, 196, 196, 0.09), 0 6px 14px 0 rgb(0 0 0 / 14%);
+}
+
+.tarefas li {
+    font-size: 20px;
+    font-family: 'Work Sans';
+    color: #0F0F0F;
+    font-weight: 600;
+    list-style-type: decimal;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apagar {
+    font-size: 14px;
+    color: #0F0F0F;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    background-color: #A2A2A2;
+    width: 100px;
+    height: 34px;
+    border-radius: 6px;
+    border-color: aqua;
+    padding: 6px;
+    border: none;
+    box-shadow: 0 4px 10px 0 rgba(200, 196, 196, 0.09), 0 6px 14px 0 rgb(0 0 0 / 14%);
+    cursor: pointer;
+}
